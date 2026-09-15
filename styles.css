@@ -1,0 +1,55 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #020202;
+    background-image: url('img/faded-office.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 2px;
+}
+
+.hero {
+    width: 476px;
+    margin:120px 0 0 80px;
+}
+
+.hero-title{
+    font-size: 76px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-message{
+    margin-top: 20px;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.hero-underline {
+    text-decoration: underline #0ea5e9 8px;
+    text-underline-offset: 12px;
+}
+
+#btn-chat {
+    padding: 18px 36px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #0ea5e9;
+    border:none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+#btn-chat:hover{
+    background-color: #0998d6;
+}
+
+#btn-chat:active {
+    transform: scale(0.96);
+    background-color: #0473a2;
+}
